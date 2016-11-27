@@ -25,6 +25,14 @@
   background-color: #464545;
 }
 
+.center-block > .img-responsive {
+	margin: auto;
+}
+
+.alert-offset {
+	position: relative;
+	bottom: 80px;
+}
 /*.footer {
     position: relative;
     bottom: 0;
