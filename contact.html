@@ -28,17 +28,35 @@
 			<div class="panel panel-default">			    	
 			  <div class="panel-heading">Contact</div>
 			  	<div class="panel-body">
-					<!-- <hr> -->
-					<div class="media">
-						<div class="media-left">
-							<img class="thumbnail" src="assets/images/profile.jpg" alt="Picture of me">							
-						</div>
-						<div class="media-body">
-							<p>My name is Matt.  I enjoy long walks on the beach and dark beer.  I play 2 or 3 games of soccer a week.</p>
-					<p>I'm living the American Dream.  I've got a wife, a house, 3 kids and car payments.  The only thing missing is a white picket fence.</p>
-					<p>I work for UNC Charlotte as the system administrator for the Continuing Education registration system.  In a previous life, I developed Windows apps for the Lincoln County department of Social Services.</p>
-						</div>
-					</div>
+					<form class="form-horizontal">
+					  <fieldset>
+					    <!-- <legend>Legend</legend> -->					    
+					    <div class="form-group">
+					      <label for="inputName" class="col-lg-2 control-label">Name</label>
+					      <div class="col-lg-10">
+					        <input type="text" class="form-control" id="inputName" placeholder="Name">
+					      </div>
+					    </div>
+					    <div class="form-group">
+					      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+					      <div class="col-lg-10">
+					        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+					      </div>
+					    </div>
+					    <div class="form-group">
+					      <label for="textArea" class="col-lg-2 control-label">Message</label>
+					      <div class="col-lg-10">
+					        <textarea class="form-control" rows="3" id="textArea" placeholder="Message"></textarea>
+					      </div>
+					    </div>
+					    
+					    <div class="form-group">
+					      <div class="col-lg-10 col-lg-offset-2">
+					        <button type="submit" class="btn btn-primary">Submit</button>
+					      </div>
+					    </div>
+					  </fieldset>
+					</form>
 			  	</div>
 			</div>
 		</div>
